@@ -14,5 +14,8 @@ namespace Data
         [Required]
         public string Name { get; set; }
         public DateTime DateCreated { get; set; }
+        public DateTime LastUpdated { get; set; }
+        [Required]
+        public bool IsDeleted { get; set; }
     }
 }

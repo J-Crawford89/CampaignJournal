@@ -51,11 +51,27 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BackgroundModels\BackgroundCreateModel.cs" />
+    <Compile Include="BackgroundModels\BackgroundDetailModel.cs" />
+    <Compile Include="BackgroundModels\BackgroundListModel.cs" />
+    <Compile Include="BackgroundModels\BackgroundUpdateModel.cs" />
+    <Compile Include="EntityModels\EntityCreateModel.cs" />
+    <Compile Include="EntityModels\EntityDetailModel.cs" />
+    <Compile Include="EntityModels\EntityListModel.cs" />
+    <Compile Include="EntityModels\EntityUpdateModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="CampaignModels\" />
+    <Folder Include="CharacterModels\" />
+    <Folder Include="ClassModels\" />
+    <Folder Include="JournalModels\" />
+    <Folder Include="NoteModels\" />
+    <Folder Include="RaceModels\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
